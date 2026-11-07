@@ -1,0 +1,21 @@
+# Core Pipeline & App Dependencies
+pillow==13.0.0
+pytest==9.2.0
+python-dotenv==1.2.4
+streamlit==1.67.0
+google-genai==3.0.0
+numpy==2.5.4
+pandas==3.1.1
+requests==2.34.2
+pydantic==2.14.3
+
+# Optional Machine Learning Dependencies for Live Diffusers + CLIP Mode
+# Run: pip install torch torchvision diffusers transformers accelerate rembg
+# Note: For Apple Silicon (MPS) or CUDA, install the PyTorch build suited for your hardware.
+# torch>=2.2.0
+# torchvision>=0.17.0
+# diffusers>=0.27.0
+# transformers>=4.38.0
+# accelerate>=0.28.0
+# rembg>=2.0.50
+
